@@ -1,0 +1,826 @@
+Archive member included because of file (symbol)
+
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./Smart_Home/HAL/Keypad_prog.o (__do_copy_data)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./Smart_Home/APP/main.o (__do_clear_bss)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./Smart_Home/HAL/Keypad_prog.o (__fixunssfsi)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./Smart_Home/HAL/Keypad_prog.o (__mulsf3)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./Smart_Home/HAL/Keypad_prog.o (__gtsf2)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./Smart_Home/HAL/Keypad_prog.o (__ltsf2)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./Smart_Home/MCAL/DIO_prog.o
+LOAD ./Smart_Home/HAL/ADC_Prog.o
+LOAD ./Smart_Home/HAL/Keypad_prog.o
+LOAD ./Smart_Home/HAL/LCD_prog.o
+LOAD ./Smart_Home/HAL/LED_Buzzer_Prog.o
+LOAD ./Smart_Home/HAL/Timer0_Prog.o
+LOAD ./Smart_Home/HAL/Timer_Servo_Prog.o
+LOAD ./Smart_Home/HAL/USART_Prog.o
+LOAD ./Smart_Home/APP/AC_Prog.o
+LOAD ./Smart_Home/APP/Door_Prog.o
+LOAD ./Smart_Home/APP/Remote_Prog.o
+LOAD ./Smart_Home/APP/Temprature_Sensor_Prog.o
+LOAD ./Smart_Home/APP/main.o
+LOAD e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3126
+ *(.vectors)
+ .vectors       0x00000000       0x54 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./Smart_Home/MCAL/DIO_prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/ADC_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/Keypad_prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/LCD_prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/Timer0_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/Timer_Servo_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/HAL/USART_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/APP/AC_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/APP/Door_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/APP/Remote_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/APP/Temprature_Sensor_Prog.o
+ .text          0x00000092        0x0 ./Smart_Home/APP/main.o
+ .text          0x00000092        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x58 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000092                __fixunssfsi
+ .text          0x000000ea      0x354 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000382                __subsf3
+                0x000003e4                __addsf3
+ .text          0x0000043e      0x1f4 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000043e                __mulsf3
+ .text          0x00000632       0x60 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x00000632                __gtsf2
+ .text          0x00000692       0x60 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x00000692                __gesf2
+ .text          0x000006f2       0x60 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x000006f2                __ltsf2
+ .text          0x00000752       0xa8 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x00000752                __fixsfsi
+ .text          0x000007fa        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x000007fa        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x000007fa        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x000007fa      0x1aa e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x000007fa                __pack_f
+ .text          0x000009a4       0xf0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x000009a4                __unpack_f
+ .text          0x00000a94       0xb2 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000a94                __fpcmp_parts_f
+                0x00000b46                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DIO_enuInit
+                0x00000b46       0x26 ./Smart_Home/MCAL/DIO_prog.o
+                0x00000b46                DIO_enuInit
+ .text.DIO_enuSetPinDirection
+                0x00000b6c      0x1d8 ./Smart_Home/MCAL/DIO_prog.o
+                0x00000b6c                DIO_enuSetPinDirection
+ .text.DIO_enuSetPinValue
+                0x00000d44      0x1de ./Smart_Home/MCAL/DIO_prog.o
+                0x00000d44                DIO_enuSetPinValue
+ .text.DIO_enuTogPinValue
+                0x00000f22      0x11c ./Smart_Home/MCAL/DIO_prog.o
+                0x00000f22                DIO_enuTogPinValue
+ .text.DIO_enuGetPinValue
+                0x0000103e      0x13c ./Smart_Home/MCAL/DIO_prog.o
+                0x0000103e                DIO_enuGetPinValue
+ .text.AD_Init  0x0000117a      0x24c ./Smart_Home/HAL/ADC_Prog.o
+                0x0000117a                AD_Init
+ .text.AD_Start_Conversion
+                0x000013c6       0x1c ./Smart_Home/HAL/ADC_Prog.o
+                0x000013c6                AD_Start_Conversion
+ .text.Auto_Trigger_Enable
+                0x000013e2       0x5c ./Smart_Home/HAL/ADC_Prog.o
+                0x000013e2                Auto_Trigger_Enable
+ .text.Analog_Select_Channel
+                0x0000143e       0x38 ./Smart_Home/HAL/ADC_Prog.o
+                0x0000143e                Analog_Select_Channel
+ .text.AD_Read_High
+                0x00001476       0x82 ./Smart_Home/HAL/ADC_Prog.o
+                0x00001476                AD_Read_High
+ .text.ADC_Polling
+                0x000014f8       0x36 ./Smart_Home/HAL/ADC_Prog.o
+                0x000014f8                ADC_Polling
+ .text.Keypad_enuInit
+                0x0000152e       0xb6 ./Smart_Home/HAL/Keypad_prog.o
+                0x0000152e                Keypad_enuInit
+ .text.Keypad_enuGetPressedKey
+                0x000015e4      0x304 ./Smart_Home/HAL/Keypad_prog.o
+                0x000015e4                Keypad_enuGetPressedKey
+ .text.KeyPad_Press_Check
+                0x000018e8       0x2e ./Smart_Home/HAL/Keypad_prog.o
+                0x000018e8                KeyPad_Press_Check
+ .text.LCD_enuInit
+                0x00001916      0x440 ./Smart_Home/HAL/LCD_prog.o
+                0x00001916                LCD_enuInit
+ .text.LCD_enuSendData
+                0x00001d56       0x2a ./Smart_Home/HAL/LCD_prog.o
+                0x00001d56                LCD_enuSendData
+ .text.LCD_enuSendCommand
+                0x00001d80       0x2a ./Smart_Home/HAL/LCD_prog.o
+                0x00001d80                LCD_enuSendCommand
+ .text.LCD_enuSendString
+                0x00001daa       0x4c ./Smart_Home/HAL/LCD_prog.o
+                0x00001daa                LCD_enuSendString
+ .text.LCD_enuWriteNLatch
+                0x00001df6      0x7e8 ./Smart_Home/HAL/LCD_prog.o
+ .text.LCD_DisplayUser
+                0x000025de       0x26 ./Smart_Home/HAL/LCD_prog.o
+                0x000025de                LCD_DisplayUser
+ .text.LCD_DisplayPassword
+                0x00002604       0x2a ./Smart_Home/HAL/LCD_prog.o
+                0x00002604                LCD_DisplayPassword
+ .text.LCD_ClearDisplay
+                0x0000262e       0x1e ./Smart_Home/HAL/LCD_prog.o
+                0x0000262e                LCD_ClearDisplay
+ .text.leds_vON
+                0x0000264c       0x72 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+                0x0000264c                leds_vON
+ .text.leds_vOFF
+                0x000026be       0x72 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+                0x000026be                leds_vOFF
+ .text.buzzer_vON
+                0x00002730       0x22 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+                0x00002730                buzzer_vON
+ .text.buzzer_vOFF
+                0x00002752       0x22 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+                0x00002752                buzzer_vOFF
+ .text.Waveform0_Gen_Mode
+                0x00002774       0x2a ./Smart_Home/HAL/Timer0_Prog.o
+                0x00002774                Waveform0_Gen_Mode
+ .text.Compare0_Match_Out_Mode
+                0x0000279e       0x2a ./Smart_Home/HAL/Timer0_Prog.o
+                0x0000279e                Compare0_Match_Out_Mode
+ .text.Clk0_Select
+                0x000027c8       0x38 ./Smart_Home/HAL/Timer0_Prog.o
+                0x000027c8                Clk0_Select
+ .text.OCR0_Value
+                0x00002800       0x1c ./Smart_Home/HAL/Timer0_Prog.o
+                0x00002800                OCR0_Value
+ .text.MotOr_0ff
+                0x0000281c       0x14 ./Smart_Home/HAL/Timer0_Prog.o
+                0x0000281c                MotOr_0ff
+ .text.MotOr_On
+                0x00002830       0x16 ./Smart_Home/HAL/Timer0_Prog.o
+                0x00002830                MotOr_On
+ .text.Door_Init
+                0x00002846       0x3c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002846                Door_Init
+ .text.TOV_EN   0x00002882       0x1c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002882                TOV_EN
+ .text.WR_TCNValue
+                0x0000289e       0x22 ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x0000289e                WR_TCNValue
+ .text.Select_Channel
+                0x000028c0       0x2a ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x000028c0                Select_Channel
+ .text.Waveform_Gen_Mode
+                0x000028ea       0x46 ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x000028ea                Waveform_Gen_Mode
+ .text.CompareMode_Phase_correct
+                0x00002930       0x46 ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002930                CompareMode_Phase_correct
+ .text.Clk_Select
+                0x00002976       0x38 ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002976                Clk_Select
+ .text.OCR1AH_OCR1ALValue
+                0x000029ae       0x2e ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x000029ae                OCR1AH_OCR1ALValue
+ .text.OCR1AL_Value
+                0x000029dc       0x1c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x000029dc                OCR1AL_Value
+ .text.OCR1AH_Value
+                0x000029f8       0x1c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x000029f8                OCR1AH_Value
+ .text.Motor_90_DEG
+                0x00002a14       0x1c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002a14                Motor_90_DEG
+ .text.Motor_0_DEG
+                0x00002a30       0x1a ./Smart_Home/HAL/Timer_Servo_Prog.o
+                0x00002a30                Motor_0_DEG
+ .text.USART_Init
+                0x00002a4a      0x1e6 ./Smart_Home/HAL/USART_Prog.o
+                0x00002a4a                USART_Init
+ .text.USART_TX_Enabel
+                0x00002c30       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002c30                USART_TX_Enabel
+ .text.USART_RX_Enabel
+                0x00002c4c       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002c4c                USART_RX_Enabel
+ .text.USART_TX_IE
+                0x00002c68       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002c68                USART_TX_IE
+ .text.USART_RX_IE
+                0x00002c84       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002c84                USART_RX_IE
+ .text.USART_UDRE_IE
+                0x00002ca0       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002ca0                USART_UDRE_IE
+ .text.USART_Baud_Rate
+                0x00002cbc       0x1c ./Smart_Home/HAL/USART_Prog.o
+                0x00002cbc                USART_Baud_Rate
+ .text.USART_Send_Char
+                0x00002cd8       0x34 ./Smart_Home/HAL/USART_Prog.o
+                0x00002cd8                USART_Send_Char
+ .text.USART_Recive_Char
+                0x00002d0c       0x1e ./Smart_Home/HAL/USART_Prog.o
+                0x00002d0c                USART_Recive_Char
+ .text.USART_Send_String
+                0x00002d2a       0x6c ./Smart_Home/HAL/USART_Prog.o
+                0x00002d2a                USART_Send_String
+ .text.USART_Recive_String
+                0x00002d96       0x7e ./Smart_Home/HAL/USART_Prog.o
+                0x00002d96                USART_Recive_String
+ .text.AC_On    0x00002e14       0x12 ./Smart_Home/APP/AC_Prog.o
+                0x00002e14                AC_On
+ .text.AC_Off   0x00002e26       0x12 ./Smart_Home/APP/AC_Prog.o
+                0x00002e26                AC_Off
+ .text.AC_Init  0x00002e38       0x28 ./Smart_Home/APP/AC_Prog.o
+                0x00002e38                AC_Init
+ .text.Door_Open
+                0x00002e60       0x12 ./Smart_Home/APP/Door_Prog.o
+                0x00002e60                Door_Open
+ .text.Door_Close
+                0x00002e72       0x12 ./Smart_Home/APP/Door_Prog.o
+                0x00002e72                Door_Close
+ .text.Remote_Init
+                0x00002e84       0x36 ./Smart_Home/APP/Remote_Prog.o
+                0x00002e84                Remote_Init
+ .text.Remote_Typing
+                0x00002eba       0xa0 ./Smart_Home/APP/Remote_Prog.o
+                0x00002eba                Remote_Typing
+ .text.Remote_Send_String
+                0x00002f5a       0x20 ./Smart_Home/APP/Remote_Prog.o
+                0x00002f5a                Remote_Send_String
+ .text.Remote_New_Line
+                0x00002f7a       0x30 ./Smart_Home/APP/Remote_Prog.o
+                0x00002f7a                Remote_New_Line
+ .text.Remote_Display
+                0x00002faa       0x62 ./Smart_Home/APP/Remote_Prog.o
+                0x00002faa                Remote_Display
+ .text.Temp_Sens_Int
+                0x0000300c       0x26 ./Smart_Home/APP/Temprature_Sensor_Prog.o
+                0x0000300c                Temp_Sens_Int
+ .text.Temp_Sens_Read
+                0x00003032       0x28 ./Smart_Home/APP/Temprature_Sensor_Prog.o
+                0x00003032                Temp_Sens_Read
+ .text.main     0x0000305a       0x5a ./Smart_Home/APP/main.o
+                0x0000305a                main
+ .text.libgcc   0x000030b4        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000030b4        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000030b4        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000030b4       0x38 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000030b4                __prologue_saves__
+ .text.libgcc   0x000030ec       0x36 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000030ec                __epilogue_restores__
+                0x00003122                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003122        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00003122                exit
+                0x00003122                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003122        0x4 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003126                _etext = .
+
+.data           0x00800060       0x40 load address 0x00003126
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./Smart_Home/MCAL/DIO_prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/ADC_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/Keypad_prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/LCD_prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/Timer0_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/Timer_Servo_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/HAL/USART_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/APP/AC_Prog.o
+ .data          0x00800060        0x0 ./Smart_Home/APP/Door_Prog.o
+ .data          0x00800060       0x20 ./Smart_Home/APP/Remote_Prog.o
+ .data          0x00800080        0x0 ./Smart_Home/APP/Temprature_Sensor_Prog.o
+ .data          0x00800080        0x6 ./Smart_Home/APP/main.o
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x00800086        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800086        0x8 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800086                __thenan_sf
+ .data          0x0080008e        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x0080008e        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x0080008e        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x0080008e        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x0080008e        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.data*)
+ .data.State    0x0080008e        0x1 ./Smart_Home/HAL/USART_Prog.o
+                0x0080008e                State
+ *(.rodata)
+ *(.rodata*)
+ .rodata.C.3.1346
+                0x0080008f       0x10 ./Smart_Home/HAL/Keypad_prog.o
+ *(.gnu.linkonce.d*)
+                0x008000a0                . = ALIGN (0x2)
+ *fill*         0x0080009f        0x1 00
+                0x008000a0                _edata = .
+                0x008000a0                PROVIDE (__data_end, .)
+
+.bss            0x008000a0        0x1
+                0x008000a0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008000a0        0x0 ./Smart_Home/MCAL/DIO_prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/ADC_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/Keypad_prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/LCD_prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/Timer0_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/Timer_Servo_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/HAL/USART_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/APP/AC_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/APP/Door_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/APP/Remote_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/APP/Temprature_Sensor_Prog.o
+ .bss           0x008000a0        0x0 ./Smart_Home/APP/main.o
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x008000a0        0x0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.bss*)
+ .bss.Key_Check
+                0x008000a0        0x1 ./Smart_Home/APP/main.o
+                0x008000a0                Key_Check
+ *(COMMON)
+                0x008000a1                PROVIDE (__bss_end, .)
+                0x00003126                __data_load_start = LOADADDR (.data)
+                0x00003166                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000a1        0x0
+                0x008000a1                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000a1                PROVIDE (__noinit_end, .)
+                0x008000a1                _end = .
+                0x008000a1                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x3bdc
+ *(.stab)
+ .stab          0x00000000      0x60c ./Smart_Home/MCAL/DIO_prog.o
+ .stab          0x0000060c      0x4bc ./Smart_Home/HAL/ADC_Prog.o
+                                0x4c8 (size before relaxing)
+ .stab          0x00000ac8      0x708 ./Smart_Home/HAL/Keypad_prog.o
+                                0x78c (size before relaxing)
+ .stab          0x000011d0      0xd5c ./Smart_Home/HAL/LCD_prog.o
+                                0xfa8 (size before relaxing)
+ .stab          0x00001f2c      0x2d0 ./Smart_Home/HAL/LED_Buzzer_Prog.o
+                                0x51c (size before relaxing)
+ .stab          0x000021fc      0x240 ./Smart_Home/HAL/Timer0_Prog.o
+                                0x2c4 (size before relaxing)
+ .stab          0x0000243c      0x42c ./Smart_Home/HAL/Timer_Servo_Prog.o
+                                0x4b0 (size before relaxing)
+ .stab          0x00002868      0x624 ./Smart_Home/HAL/USART_Prog.o
+                                0x6a8 (size before relaxing)
+ .stab          0x00002e8c      0x228 ./Smart_Home/APP/AC_Prog.o
+                                0x234 (size before relaxing)
+ .stab          0x000030b4      0x15c ./Smart_Home/APP/Door_Prog.o
+                                0x1e0 (size before relaxing)
+ .stab          0x00003210      0x408 ./Smart_Home/APP/Remote_Prog.o
+                                0x414 (size before relaxing)
+ .stab          0x00003618      0x1bc ./Smart_Home/APP/Temprature_Sensor_Prog.o
+                                0x240 (size before relaxing)
+ .stab          0x000037d4      0x408 ./Smart_Home/APP/main.o
+                                0x48c (size before relaxing)
+
+.stabstr        0x00000000     0x1b22
+ *(.stabstr)
+ .stabstr       0x00000000     0x1b22 ./Smart_Home/MCAL/DIO_prog.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x00000080       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000000e0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000100       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000120       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x170
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1e e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x0000008c       0x1e e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000aa       0x1e e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000c8       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x000000e8       0x22 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x0000010a       0x1f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000129       0x21 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000014a       0x26 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_info     0x00000000     0x1c49
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x27f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x00000c2f      0x27f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x00000eae      0x27f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x0000112d      0x2b0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000013dd      0x12c e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001509      0x2df e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x000017e8      0x251 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001a39      0x210 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xeeb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x15a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000005bc      0x15a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x00000716      0x15a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000870      0x17f e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x000009ef       0xad e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000a9c      0x1c0 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000c5c      0x154 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000db0      0x13b e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_line     0x00000000      0xdad
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f       0xd3 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000662       0xd3 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x00000735       0xd3 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x00000808      0x109 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000911       0x90 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000009a1      0x18a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000b2b      0x14b e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000c76      0x137 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_frame    0x00000000      0x160
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000a0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000c0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x000000e0       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000100       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000120       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000140       0x20 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x28d
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233        0xf e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000242        0x8 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x0000024a        0x8 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000252        0xa e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000025c       0x16 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00000272        0xb e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x0000027d       0x10 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+
+.debug_loc      0x00000000      0x7ce
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0x3c e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000049e       0x3c e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x000004da       0x3c e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x00000516       0x7e e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000594      0x13e e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x000006d2       0xac e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000077e       0x50 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Smart_Home_Project_4546.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 e:/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
